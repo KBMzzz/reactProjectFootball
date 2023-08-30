@@ -4,7 +4,7 @@ import "../App.css";
 const Navbar = () => {
   return (
     <div className="navbar">
-      <h1>Football Stat Tracker</h1>
+      <h1>Football Tracker</h1>
     </div>
   );
 };

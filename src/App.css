@@ -1,3 +1,16 @@
+.App {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(245, 246, 252, 0.52),
+      rgba(19, 81, 117, 0.73)
+    ),
+    url("./assets/img/wallpaperflare.com_wallpaper.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+/* APP CSS ^^ */
+
 .navbar,
 .footer {
   width: 100%;
@@ -39,5 +52,31 @@
 }
 
 .tab-leagues {
-  border-right: 5px solid grey;
+  border-right: 5px solid rgba(128, 128, 128, 0.3);
 }
+
+/* TABS CSS ^^ */
+
+.leaguetr {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.league-div {
+  padding: 40px;
+  text-align: center;
+}
+
+.league-div > img {
+  height: 150px;
+  transition: 1s ease;
+}
+
+.league-div:hover {
+  transform: scale(1.1);
+}
+
+/* LEAGUES CSS ^^ */
