@@ -1,9 +1,7 @@
-import { useEffect, useState } from "react";
-import axios from "axios";
 import "./App.css";
 import Content from "./components/Content";
-import Footer from "./components/footer";
-import Navbar from "./components/navbar";
+import Footer from "./components/Footer";
+import Navbar from "./components/Navbar";
 
 function App() {
   return (
