@@ -15,7 +15,7 @@
 .footer {
   width: 100%;
   height: 10vh;
-  background-color: #000000;
+  background-color: #70aeff2f;
   color: #ffffff;
   display: flex;
   align-items: center;
@@ -81,9 +81,33 @@
 
 /* LEAGUES CSS ^^ */
 
+.select-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.selects {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
+
 select {
   padding: 12px;
   font-size: 1rem;
+}
+
+span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+span > img {
+  height: 50px;
 }
 
 /* STANDINGS CSS ^^ */
