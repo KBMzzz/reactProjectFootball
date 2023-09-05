@@ -17,7 +17,11 @@ const Content = () => {
         </div>
       </div>
 
-      {active ? <Leagues /> : <Standings />}
+      {active ? (
+        <Leagues />
+      ) : (
+        <Standings active={active} setActive={setActive} />
+      )}
     </div>
   );
 };

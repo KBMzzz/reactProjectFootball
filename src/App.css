@@ -80,3 +80,10 @@
 }
 
 /* LEAGUES CSS ^^ */
+
+select {
+  padding: 12px;
+  font-size: 1rem;
+}
+
+/* STANDINGS CSS ^^ */
