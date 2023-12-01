@@ -49,9 +49,15 @@
   background-color: #000000;
   color: #ffffff;
   height: 50px;
+  border-radius: 0.5rem;
 }
 
 .tab-leagues {
+  margin-right: 0.5rem;
+}
+
+.tab-standings {
+  margin-left: 0.5rem;
 }
 
 /* TABS CSS ^^ */
