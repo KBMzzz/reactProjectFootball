@@ -226,3 +226,9 @@ html {
 }
 
 /* ^^ SETUP CODE SNIPPET ^^ */
+
+.wrapper {
+  max-width: 900px;
+  width: 90%;
+  margin: 0 auto;
+}
