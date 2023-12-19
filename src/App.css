@@ -53,10 +53,12 @@
 }
 
 .tab-leagues {
+  cursor: pointer;
   margin-right: 0.5rem;
 }
 
 .tab-standings {
+  cursor: pointer;
   margin-left: 0.5rem;
 }
 
