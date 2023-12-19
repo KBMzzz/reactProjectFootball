@@ -71,11 +71,11 @@
 
 .league-div {
   background-color: rgba(255, 255, 255);
-  background-size: 180px auto;
   border-radius: 0.5rem;
   margin: 15px;
   padding: 22px;
   text-align: center;
+  width: 10rem;
 }
 
 .league-div img {
@@ -91,6 +91,11 @@
 
 .league-div:hover {
   transform: scale(1.1);
+}
+
+.league-div p {
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
 }
 
 /* LEAGUES CSS ^^ */
