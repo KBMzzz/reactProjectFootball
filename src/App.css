@@ -71,6 +71,11 @@
   flex-wrap: wrap;
 }
 
+.leaguetr a {
+  text-decoration: none;
+  color: inherit;
+}
+
 .league-div {
   background-color: rgba(255, 255, 255);
   border-radius: 0.5rem;
@@ -87,7 +92,6 @@
 }
 
 .league-div > img {
-  height: 150px;
   transition: 1s ease;
 }
 
