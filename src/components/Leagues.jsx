@@ -67,19 +67,19 @@ const Leagues = () => {
     <div className="league-container">
       <div className="leaguetr">
         {filteredLeaguesData.map((leagueData, index) => (
-          <div key={leagueData.league.id} className="league-div">
-            <a
-              href={leaguesWithLinks[index].link}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
+          <a
+            href={leaguesWithLinks[index].link}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <div key={leagueData.league.id} className="league-div">
               <img
                 src={leagueData.league.logo}
                 alt={`Logo of ${leagueData.league.name}`}
               />
-            </a>
-            <p>{leagueData.league.name}</p>
-          </div>
+              <p>{leagueData.league.name}</p>
+            </div>
+          </a>
         ))}
       </div>
     </div>
